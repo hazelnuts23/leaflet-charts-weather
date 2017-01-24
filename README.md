@@ -7,7 +7,7 @@ Leaflet JS with OpenWeather and AmCharts on Popup
 
 
 ## **Weather** ##
-![2017_01_24_22_35_43.png](https://s24.postimg.org/emzo0rcdx/2017_01_24_22_35_43.png)
+![2017_01_24_23_14_51.png](https://s30.postimg.org/yca3ko2up/2017_01_24_23_14_51.png)
 
 Demo: http://sqai.my/leaflet-charts-weather
 
