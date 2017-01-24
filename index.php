@@ -20,7 +20,6 @@
 </head>
 <body>
 <div id="mapid"></div>
-<div class="footer">Get source code here: </div>
 <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

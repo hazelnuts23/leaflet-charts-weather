@@ -43,6 +43,7 @@ m2.on('click', function () {
         data: {
             "lat": 1.5587,
             "lon": 110.3108,
+
             "APPID": "", // Add Your Own API
         },
         error: function () {
@@ -55,9 +56,9 @@ m2.on('click', function () {
             document.getElementById('weather').innerHTML += '<div class="weather-desc">' + data.weather[0].description + '</div>';
             document.getElementById('weather').innerHTML += '<li>Country: ' + data.sys.country + '</li>';
             document.getElementById('weather').innerHTML += '<li>Wind Speed: ' + data.wind.speed + '</li>';
-            document.getElementById('weather').innerHTML += '<li>Temp. : ' + fToC(data.main.temp) + '</li>';
-            document.getElementById('weather').innerHTML += '<li>Min Temp. : ' + fToC(data.main.temp_min) + '</li>';
-            document.getElementById('weather').innerHTML += '<li>Max Temp. : ' + fToC(data.main.temp_max) + '</li>';
+            document.getElementById('weather').innerHTML += '<li>Temp. : ' + cTof(data.main.temp) + '</li>';
+            document.getElementById('weather').innerHTML += '<li>Min Temp. : ' + cTof(data.main.temp_min) + '</li>';
+            document.getElementById('weather').innerHTML += '<li>Max Temp. : ' + cTof(data.main.temp_max) + '</li>';
             document.getElementById('weather').innerHTML += '<li>Humidity : ' + data.main.humidity + '</li>';
         },
         type: 'GET'
@@ -66,10 +67,10 @@ m2.on('click', function () {
 m2.addTo(map);
 /** END **/
 
-function fToC(fahrenheit) {
-    var fTemp = fahrenheit;
-    var fToCel = (fTemp - 32) * 5 / 9;
-    var message = fTemp + '\xB0F / ' + fToCel + '\xB0C.';
+function cTof(celsius) {
+    var cTemp = celsius;
+    var cToFahr = cTemp * 9 / 5 + 32;
+    var message = cTemp + '\xB0C is ' + cToFahr + ' \xB0F.';
     return message;
 }
 
