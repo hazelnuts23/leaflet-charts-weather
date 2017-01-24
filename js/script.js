@@ -43,7 +43,7 @@ m2.on('click', function () {
         data: {
             "lat": 1.5587,
             "lon": 110.3108,
-
+            "units": "metric",
             "APPID": "", // Add Your Own API
         },
         error: function () {
