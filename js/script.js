@@ -43,7 +43,7 @@ m2.on('click', function () {
         data: {
             "lat": 1.5587,
             "lon": 110.3108,
-            "APPID": "f6d3328994cbb04df5ca519c8f5e7dc2", // Add Your Own API
+            "APPID": "", // Add Your Own API
         },
         error: function () {
             document.getElementById('weather').innerHTML = 'An error occurred';
