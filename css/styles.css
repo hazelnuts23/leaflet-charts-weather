@@ -1,0 +1,29 @@
+
+body {
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#mapid{
+    height: 97%;
+    width: 100%;
+}
+#weather{
+    text-align: center;
+}
+#weather .weather-desc{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#weather li{
+    list-style: none;
+}
+#bar-chart, #pie-chart{
+    width		: 100%;
+    height		: 500px;
+    font-size	: 11px;
+}
