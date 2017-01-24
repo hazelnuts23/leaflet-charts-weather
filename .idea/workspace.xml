@@ -47,14 +47,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="33">
+                <state relative-caret-position="603">
                   <caret line="46" column="44" lean-forward="true" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
                   <folding>
-                    <marker date="1485270958000" expanded="true" signature="1076:1266" ph="{&quot;url&quot;: 'http://api.openweathermap.org/data/2.5/weather'...}" />
-                    <marker date="1485270958000" expanded="true" signature="2642:2677" ph="{...}" />
+                    <marker date="1485270958000" expanded="true" signature="1595:1629" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -75,19 +74,19 @@
           <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
+                <state relative-caret-position="1061">
                   <caret line="17" column="8215" lean-forward="false" selection-start-line="17" selection-start-column="8215" selection-end-line="17" selection-end-column="8215" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="135">
-                    <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+                  <first_editor relative-caret-position="90">
+                    <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
                     <folding />
                   </first_editor>
                   <second_editor />
@@ -440,7 +439,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5480000" />
+    <option name="totallyTimeSpent" value="5516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1360" extended-state="6" />
@@ -550,8 +549,7 @@
         <state relative-caret-position="33">
           <caret line="46" column="54" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="54" />
           <folding>
-            <marker date="1485270958000" expanded="true" signature="1076:1266" ph="{&quot;url&quot;: 'http://api.openweathermap.org/data/2.5/weather'...}" />
-            <marker date="1485270958000" expanded="true" signature="2642:2677" ph="{...}" />
+            <marker date="1485270958000" expanded="true" signature="1595:1629" ph="..." />
           </folding>
         </state>
       </provider>
@@ -597,8 +595,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -613,9 +611,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="1061">
           <caret line="17" column="8215" lean-forward="false" selection-start-line="17" selection-start-column="8215" selection-end-line="17" selection-end-column="8215" />
           <folding />
         </state>
@@ -623,20 +629,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
+        <state relative-caret-position="603">
           <caret line="46" column="44" lean-forward="true" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
           <folding>
-            <marker date="1485270958000" expanded="true" signature="1076:1266" ph="{&quot;url&quot;: 'http://api.openweathermap.org/data/2.5/weather'...}" />
-            <marker date="1485270958000" expanded="true" signature="2642:2677" ph="{...}" />
+            <marker date="1485270958000" expanded="true" signature="1595:1629" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
