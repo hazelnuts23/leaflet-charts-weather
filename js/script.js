@@ -41,7 +41,7 @@ m2.on('click', function () {
     $.ajax({
         url: 'http://api.openweathermap.org/data/2.5/weather',
         data: {
-            "lat": 1.5587,
+            "lat": 1.663,
             "lon": 110.3108,
             "units": "metric",
             "APPID": "", // Add Your Own API
